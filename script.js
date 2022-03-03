@@ -5,7 +5,6 @@ var dateEl = document.querySelector(".date");
 
 setInterval(function analogClock() {
     var currentTime = new Date();
-    console.log(currentTime);
     var secDeg = (currentTime.getSeconds() / 60) * 360 - 90;
     var minDeg = (currentTime.getMinutes() / 60) * 360 - 90;
     var hourDeg = (currentTime.getHours() / 12) * 360 - 90;
