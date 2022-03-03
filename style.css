@@ -39,6 +39,26 @@ section {
     color: #eff7ff;
 }
 
+.date {
+    position: absolute;
+    bottom: 25%;
+    left: 46%;
+    width: 25px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 1px 1px 4px 3px #d5c0c0;
+    font-size: 20px;
+    color: #ff0000;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
 .hour,
 .min,
 .sec {
@@ -55,6 +75,7 @@ section {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     transform-origin: left;
+    z-index: 9999;
 }
 
 .min {
